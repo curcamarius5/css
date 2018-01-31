@@ -1,0 +1,189 @@
+
+body {
+    background-color: #f9f9f9;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+select {
+    border: none;
+}
+h3 {
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    margin-bottom: 0;
+}
+header {
+    background-color: #d94e44;
+    margin: 0;
+    padding: 0;
+  
+}
+
+nav {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  
+  
+}
+.navli {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+       
+}
+.li1,.li2 {
+    float: left;
+    width: 50%;
+    height: 50px;
+     border-bottom-style: solid;
+    border-bottom-color: #d6d4d4;
+    border-bottom-width: 1px;
+    padding: 0;
+    margin: 0;
+    
+   
+   
+    
+      
+}
+
+ li span {
+    display: block;
+    
+    text-align: center;
+    color: #d94e44;
+   margin: auto;
+    width: 60%;
+   padding: 10px;
+   
+    
+}  
+.li2 { 
+    float: right; 
+    width: 50%;
+   
+    margin-right: -1px;
+ 
+}
+.li1 {border-right-style: solid;
+    border-right-color: #d6d4d4;
+    border-right-width: 1px;
+  
+}
+form {
+    max-width: 1000px;
+     margin: auto;
+    width: 50%;
+   
+    padding: 10px;
+}
+
+legend {
+    background-color: #db4d3f;
+   width: 100%;
+     padding: 6px;
+    color: white;
+    margin: 0;
+        
+}
+fieldset {
+    border: 0;
+    background-color: #f6f4f4;
+   padding-left: 0;
+    margin-bottom: 15px;
+}
+section {
+    margin: 10px;;
+    width: 90%;
+   
+    padding: 10px;
+}
+section input {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+}
+section textarea {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+}
+.lista1 {
+    float: left;
+  padding: 5px 0;
+    margin-top: 0;
+    font-size: 13px;
+    text-align: center;
+    width: 33.333%;
+}
+.ingr {
+    list-style-type: none;
+    font-size: 13px;
+    
+    
+}
+.ingr li:before {
+		content: "\00BB \0020";
+        color: #db4d3f;
+	     }
+.lista2 {
+    float: left;
+  padding: 5px 0;
+    margin-top: 0;
+    font-size: 13px;
+    text-align: center;
+    width: 20%;
+    height: 35px;
+   
+}
+.sqc {
+    color: #db4d3f;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: white;
+}
+ol li {
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+.addstep {
+    color: #db4d3f;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px
+}
+.cancel {
+    color: #db4d3f;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: white;
+    width: 47.8%;
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 30px;
+}
+.save {
+    color: white;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #db4d3f;
+    width: 47.8%;
+    text-align: center;
+    margin-top: 10px;
+    float: right;
+        margin-bottom: 30px;
+}
