@@ -118,13 +118,13 @@ section textarea {
     float: left;
   padding: 5px 0;
     margin-top: 0;
-    font-size: 13px;
+    font-size: 0.8125em;
     text-align: center;
     width: 33.333%;
 }
 .ingr {
     list-style-type: none;
-    font-size: 13px;
+    font-size: 0.8125em;
     
     
 }
@@ -133,14 +133,25 @@ section textarea {
         color: #db4d3f;
 	     }
 .lista2 {
+    display: inline-block;
     float: left;
   padding: 5px 0;
     margin-top: 0;
-    font-size: 13px;
+    
+    font-size: 0.8125em;
     text-align: center;
     width: 20%;
     height: 35px;
    
+}
+.selpad {
+    margin-top: 5px;
+    height: 25px;
+    line-height: 30px;
+  
+}
+.qty {
+    max-width: 50px;
 }
 .sqc {
     color: #db4d3f;
@@ -148,10 +159,11 @@ section textarea {
     border: 1px solid;
     border-radius: 3px;
     background-color: white;
+    margin-top: 5px;
 }
 ol li {
     padding-bottom: 10px;
-    font-size: 10px;
+    font-size: 0.875em;
 }
 .addstep {
     color: #db4d3f;
@@ -161,7 +173,7 @@ ol li {
     background-color: white;
     width: 100%;
     text-align: center;
-    margin-top: 10px
+    margin-top: 10px;
 }
 .cancel {
     color: #db4d3f;
@@ -169,7 +181,7 @@ ol li {
     border: 1px solid;
     border-radius: 3px;
     background-color: white;
-    width: 47.8%;
+    width: 46.4%;
     text-align: center;
     margin-top: 10px;
     float: left;
@@ -181,9 +193,67 @@ ol li {
     border: 1px solid;
     border-radius: 3px;
     background-color: #db4d3f;
-    width: 47.8%;
+    width: 46.4%;
     text-align: center;
     margin-top: 10px;
     float: right;
         margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 700px)
+{
+    form {
+        width: 90%;
+    }
+    .cancel {
+        width: 47.2%;
+    }
+    .save {
+        width: 47.2%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    form {
+        width: 95%;
+    }
+    .cancel {
+        width: 45.8%;
+    }
+    .save {
+        width: 45.8%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    form {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    ol {
+        padding-left: 0;
+    }
+    .olsec {
+        padding-right: 0;
+        padding-left: 1;
+     
+       
+    }
+    .olfield {
+        padding-right: 0;
+    }
+    .cancel {
+        width: 44.8%;
+    }
+    .save {
+        width: 44.8%;
+    }
+    .ingr {
+        padding-left: 0;
+    }
+    .of {
+        display: none;
+        
+    }
 }
