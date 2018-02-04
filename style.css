@@ -5,6 +5,10 @@ body {
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
 }
+textarea {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 select {
     border: none;
 }
@@ -223,6 +227,9 @@ ol li {
     .save {
         width: 45.8%;
     }
+    .hd320 {
+        font-size: 0.88em;
+    }
 }
 @media only screen and (max-width: 320px) {
     form {
@@ -255,5 +262,8 @@ ol li {
     .of {
         display: none;
         
+    }
+    .hd320 {
+        font-size: 0.85em;
     }
 }
